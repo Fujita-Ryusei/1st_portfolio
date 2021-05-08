@@ -1,0 +1,21 @@
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+    <h1>大小判定</h1>
+    <script>  
+        const num01 = Math.floor(Math.random()*10) + 1 // 1-10までの乱数
+        const num02 = Math.floor(Math.random()*10) + 1 // 1-10までの乱数
+        
+        if(num01==num02){
+            document.write(num01 + "と" + num02 +"は同じ");
+           }else if(num01<num02){
+            document.write(num01 + "より" + num02 +"は大きい");
+           }else{
+               document.write(num01 + "より" + num02 +"は小さい");
+           }
+    </script>
+    </body>
+</html>

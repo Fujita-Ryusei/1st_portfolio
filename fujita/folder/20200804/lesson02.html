@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <p>偶数のみ表示</p>
+    <script>
+        for (let i=1; i<=20; i++){
+            if (i%2 ==0){
+                document.write(i+",")
+            }
+        }
+    </script>
+    <br>
+    <script>
+        for (let i=1; i<=20; i++){
+            if (i%2 ==0){}
+            else{
+                document.write(i+",")
+            }
+        }
+    </script>
+    <br>
+    <script>
+    for (let i=1; i<=30; i++){
+            if (i%5 ==0){
+                document.write(i+",")
+            }
+        }
+    
+    </script>
+    <br>
+    <script>
+    for (let i=72; i<=98;i++)
+        if (i%3==0){document.write(i+",")}
+    </script>
+    <br>
+    <script>
+      for(let i = 1 ; i <= 30; i++){
+      //偶数の時だけ表示
+      if(i%3 == 0){
+        document.write("<li style='background-color:#FCC'>○</li>");
+      }else if(i%3 == 1){
+        document.write("<li style='background-color:#FFC'>○</li>");
+      }else{
+        document.write("<li style='background-color:#FCF'>○</li>");
+      }
+  }
+    
+    </script>
+</body>
+</html>

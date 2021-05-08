@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+  <h1>その月は何日ありますか？</h1>
+  <script>
+  const figure = Math.floor(Math.random()*12) + 1 // 1-12までの乱数
+  
+  if (figure==2){document.write("その月は30日です。");}
+      else if(figure==4||figure==6||figure==9||figure==11){document.write("その月は30日です。");}
+      else{document.write("その月は31日です。");}
+    </script>
+</body>
+</html>

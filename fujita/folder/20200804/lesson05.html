@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body><p>配列の一覧表示</p>
+   <script>
+    let num =[73,25,18,33,57,21,7];
+    let total = 0;//合計
+    let max = num[0];  //最大
+    let min = num[0];  //最小
+    let ave = 0;  //平均
+    
+    for(let i = 0 ; i < num.length ; i++){
+      document.write(num[i] + ",");
+      total += num[i];
+      //最大
+      if(max < num[i]){ max = num[i]; }
+      //最小
+      if(min > num[i]){ min = num[i]; }
+      //平均
+      ave = total/num.length;
+    }
+    document.write("<br>合計:"+total);
+    document.write("<br>最大:"+max);
+    document.write("<br>最小:"+min);
+    document.write("<br>平均:"+ave);
+    </script>
+</body>
+</html>

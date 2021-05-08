@@ -1,0 +1,135 @@
+@charset "utf-8";
+@import url(reset.css);
+/*サイト内全般のスタイル*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+    min-width: 1000px;
+}
+
+body {
+    line-height: 1.0;
+    font-family: "メイリオ","Meiryo","ヒラギノ角ゴ　Pro W3","Hiragino kaku Gothic Pro","MS ゴシック","Osaka" ,sans-serif;
+    font-size: 1.4em;
+}
+
+/*section共通のスタイル*/
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px 1px #333;
+}
+
+ section:nth-of-type(odd) {
+     background-attachment: fixed;
+ }
+
+
+.inner {
+    width: 800px;
+    height: 300px;
+    margin: auto;
+}
+
+
+h1 {
+    color: white;
+    font-size: 8rem;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 1px #333;
+}
+
+h1 span {
+    font-size: .5em;
+    margin-left: .5em;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+
+#page-top {
+    background-image: url(../images/background.jpg);
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#page-top .myname {
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 3rem;
+}
+
+
+#page-01 {
+    background-image: url(../images/page-01.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+}
+
+
+#page-02 {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: right;
+    color: #333;
+    text-shadow: none;
+    position: relative;
+}
+
+#page-02::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/page-02.jpg);
+    background-position: center;
+    background-size: contain;
+    filter: grayscale(100%);
+}
+
+#page-02 .inner {
+    height: auto;
+}
+
+#page-02 img {
+    display: block;
+    width: 38%;
+    margin-top: 20px;
+    margin-left: auto;
+    border: 1px solid #666;
+}
+
+
+#page-03 {
+    background-image: url(../images/page-03.jpg);
+    text-align: right;
+}
+
+
+#page-04 {
+    background-image: url(../images/page-04.jpg);
+}
+#page-05 {
+    background-image: url(../images/page-05.jpg);
+}

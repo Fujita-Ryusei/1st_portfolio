@@ -1,0 +1,28 @@
+@charset "utf-8";
+.window {
+    margin: 10px;
+    padding: 40px;
+    clear: both;
+}
+.menu {
+    padding-right: 50px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.menu a {
+    color: black;
+}
+.contents a{
+    color: black;
+}
+.contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.contents-note {
+    width: 250px;
+}

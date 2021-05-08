@@ -1,0 +1,38 @@
+@charset "utf-8";
+.window {
+    margin: 10px;
+    padding: 40px;
+    clear: both;
+    background-color: burlywood;
+}
+.menu {
+    padding: 2.5%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: wheat;
+    font-size: large;
+}
+.menu a {
+    color: black;
+}
+.menu a:hover {
+    color: red;
+}
+.contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 200px;
+    height: 280px;
+}
+.contents-book a{
+    color: black;
+}
+.contents-book a:hover{
+    color: red;
+    text-decoration: underline;
+}

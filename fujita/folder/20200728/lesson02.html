@@ -1,0 +1,28 @@
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+      <h1>3つの数の最小値を求める</h1>
+      <script>
+      const num01 = Math.floor(Math.random()*10) + 1 // 1-10までの乱数
+      const num02 = Math.floor(Math.random()*10) + 1 // 1-10までの乱数
+      const num03 = Math.floor(Math.random()*10) + 1 // 1-10までの乱数
+      const num04 = Math.floor(Math.random()*10) + 1
+      let max = 11; //最大値用の変数// 一番大きいのは nです。
+          
+        document.write(num01 +":"+num02+":"+num03+":"+num04+"<br>");
+
+          
+      if(num01<max){max=num01}
+      if(num02<max){max=num02}
+      if(num03<max){max=num03}
+      if(num04<max){max=num04}
+            document.write("最小値は" + max + "です。");
+          
+      
+
+      </script>
+    </body>
+</html>

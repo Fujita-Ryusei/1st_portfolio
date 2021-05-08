@@ -1,0 +1,35 @@
+@charset "utf-8";
+.window {
+    background-color: cornsilk;
+    clear: both;
+}
+.menu {
+    padding: 2.5%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: wheat;
+    font-size: large;
+}
+.menu a {
+    color: black;
+    font-size: 20px;
+}
+.menu a:hover {
+    color: red;
+}
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.image {
+    width: 1300px;
+    height: 910px;
+}

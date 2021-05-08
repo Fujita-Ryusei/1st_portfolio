@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+
+a{
+  color: blue;
+}
+a hover {
+  text-decoration: none;
+}
+
+#back {
+  margin-top: 3em;
+}
+
+
+
+
+#tds p {
+  text-decoration: underline;
+}
+
+#tds.jitsu {
+  text-decoration-style: solid;
+}
+
+#tds.niju {
+  text-decoration-style: double;
+}
+
+#tds.ten {
+  text-decoration-style: dotted;
+}
+
+#tds.ha {
+  text-decoration-style: dashed;
+}
+
+.nami {
+  text-decoration-style: wavy;
+}
